@@ -5,7 +5,7 @@
 ータセットを用いて、迷惑メール検出器を作成した。
 
 ## 説明
-・http://www.aueb.gr/users/ion/data/lingspam_public.tar.gzにあるデータセットを使用する。
+・http://www.aueb.gr/users/ion/data/lingspam_public.tar.gz にあるデータセットを使用する。
 ・データセットの中にあるpartt?というサブディレクトリには、spmsga*.txという名の迷惑メールとそれ以外\\
 の正当なメールのファイルがあるので、リストに分類する。
 ・分類器にLightGBMを用いてoptunaによるハイパーパラメータチューニングを行い、その結果を利用して分類\\
